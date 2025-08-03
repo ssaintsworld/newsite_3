@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Socials</title>
+  <style>
+    :root {
+      --black: #000000;
+      --red-dark: #A20021;
+      --red: #F52F57;
+      --orange: #F79D5C;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background-color: var(--black); color: white; padding: 2rem; }
+    nav { display: flex; gap: 1rem; justify-content: center; margin-bottom: 2rem; }
+    nav button {
+      padding: 0.5rem 1rem;
+      border: 2px solid white;
+      background-color: transparent;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    nav button:hover { background-color: var(--red-dark); color: var(--orange); }
+    .logo { text-align: center; font-size: 2rem; font-weight: bold; color: var(--red); font-family: 'Impact', sans-serif; margin-bottom: 1rem; }
+    .content { max-width: 900px; margin: 0 auto; font-size: 1.1rem; line-height: 1.8rem; }
+  </style>
+</head>
+<body>
+  <div class="logo">SW</div>
+  <nav>
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="location.href='about.html'">About</button>
+    <button onclick="location.href='music.html'">New Music</button>
+    <button onclick="location.href='socials.html'">Socials</button>
+  </nav>
+  <div class="content">
+<h2>Social Links</h2><p>Connect with the artist on social media platforms.</p></div></body></html>
